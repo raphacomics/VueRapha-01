@@ -16,8 +16,10 @@ const removeCount = () => {
 </script>
 
 <template>
-  <div class="container text-center">
-    <p class="display-3">{{ count }}</p>
+  <div class="container text-center my-5">
+    <h1>Rapha Counter in Vue3</h1>
+    <hr />
+    <p class="display-1 bg-dark text-light py-5 rounded-4">{{ count }}</p>
     <div class="d-grid gap-2">
       <button @click="addCount" class="btn btn-primary">ADD</button>
       <button @click="removeCount" class="btn btn-primary">REMOVE</button>
